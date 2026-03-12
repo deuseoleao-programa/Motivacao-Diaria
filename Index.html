@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motivação Diária</title>
+  <meta
+    name="description"
+    content="Motivação Diária é um app com frases motivacionais, estudos, treinos e IA de musculação."
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6c63ff, #8a84ff, #b2afff);
+      color: #1f1f1f;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .hero {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 28px;
+      padding: 40px 28px;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+      margin-top: 28px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #efeefe;
+      color: #6c63ff;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: bold;
+      margin-bottom: 18px;
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 14px;
+      color: #181818;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #4b4b4b;
+      max-width: 720px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 14px 22px;
+      border-radius: 16px;
+      font-weight: bold;
+      transition: 0.2s;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #6c63ff;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #6c63ff;
+      border: 2px solid #d8d5ff;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.96;
+    }
+
+    .section {
+      margin-top: 26px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+    }
+
+    .section h2 {
+      font-size: 28px;
+      margin-bottom: 18px;
+      color: #181818;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: #f8f7ff;
+      border: 1px solid #ebe9ff;
+      border-radius: 22px;
+      padding: 18px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #2a2a2a;
+    }
+
+    .card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #5c5c5c;
+    }
+
+    .footer {
+      text-align: center;
+      color: white;
+      padding: 30px 10px 40px;
+      font-size: 14px;
+    }
+
+    .info-list {
+      line-height: 1.9;
+      color: #444;
+      font-size: 15px;
+    }
+
+    .highlight {
+      color: #6c63ff;
+      font-weight: bold;
+    }
+
+    @media (max-width: 700px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      .hero,
+      .section {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="badge">App Android • Motivação • Estudos • Treinos</div>
+      <h1>Motivação Diária</h1>
+      <p class="subtitle">
+        Um aplicativo pensado para ajudar na sua disciplina diária com frases motivacionais,
+        organização de estudos, controle de treinos e uma IA de musculação integrada ao app.
+      </p>
+
+      <div class="buttons">
+        <a class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">
+          Baixar em breve
+        </a>
+        <a class="btn btn-secondary" href="#contato">
+          Suporte
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Recursos do app</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Frases motivacionais</h3>
+          <p>Leia, favorite e compartilhe frases bonitas para manter seu foco todos os dias.</p>
+        </div>
+        <div class="card">
+          <h3>Estudos</h3>
+          <p>Cadastre atividades, acompanhe prazos e marque o status como pendente, em processo ou finalizada.</p>
+        </div>
+        <div class="card">
+          <h3>Treinos</h3>
+          <p>Organize seus treinos, marque exercícios concluídos e mantenha sua rotina mais consistente.</p>
+        </div>
+        <div class="card">
+          <h3>IA de musculação</h3>
+          <p>Receba ajuda com treinos, divisão muscular, hipertrofia, descanso e disciplina.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Sobre o app</h2>
+      <div class="info-list">
+        <p><span class="highlight">Nome:</span> Motivação Diária</p>
+        <p><span class="highlight">Plataforma:</span> Android</p>
+        <p><span class="highlight">Objetivo:</span> ajudar o usuário com motivação, produtividade e evolução física</p>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <h2>Contato e suporte</h2>
+      <div class="info-list">
+        <p><span class="highlight">E-mail:</span> seuemail@exemplo.com</p>
+        <p><span class="highlight">WhatsApp:</span> coloque aqui seu número ou link</p>
+        <p><span class="highlight">Política de privacidade:</span> você pode adicionar uma página depois</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer">
+    © 2026 Motivação Diária. Todos os direitos reservados.
+  </div>
+</body>
+</html>
